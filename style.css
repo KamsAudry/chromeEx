@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;500;600;700&family=Roboto:wght@500&display=swap');
+*{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 10px;
+}
+a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 1.6rem;
+}
+.container{
+    background-image: url(./miikka-luotio-i3WlrO7oAHA-unsplash.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    width: 100%;
+}
+.container .nav_bar{
+    align-self: flex-end;
+    display: flex;
+    margin-bottom: 150px;
+    padding: 0 70px;
+}
+.container .nav_bar ul{
+    display: flex;
+    list-style: none;
+    margin-right: -55px;
+} 
+.container .nav_bar ul li{
+    padding: 20px 20px 0 0 ;
+} 
+@media only screen and (max-width: 1000px){
+    .container .nav_bar ul{
+        margin-right: -45px;
+    } 
+
+}
+@media only screen and (max-width: 768px){
+    .container .nav_bar ul{
+        margin-right: -75px;
+    } 
+
+}
+.container .nav_bar ul li a{
+    transition: all .2s ease-in;
+}
+.container .nav_bar ul li a.gmail:hover{
+    border-bottom: 2px solid white;
+}
+.container .nav_bar ul li a.imge:hover{
+    border-bottom: 2px solid white;
+}
+.container .nav_bar ul li a.apps span{
+    transition: all .2s ease-in;
+    border-radius: 20px;
+}
+.container .nav_bar ul li a.apps span:hover{
+    background-color:rgba(128, 128, 128, 0.658);
+}
+.container section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-grow: 2;
+    width: 100%;
+    height: auto;
+  
+}
+.container section h1{
+    font-size: 10rem;
+    font-weight: 600;
+  
+}
+.container section .input{
+  display: flex;
+  border-radius: 25px;
+  border: none;
+  align-items: center;
+  justify-content: center;
+  width: 600px;
+  background-color: #fff;
+  padding: 5px 20px;
+  font-size: 1.5rem;
+ 
+}
+.container section .input a{
+    font-size: 1.5rem;
+    width: 30px;
+    display: flex;
+    align-items: center;
+}
+.container section .input a img{
+    width: 100%;
+}
+.container section .input input{
+    flex-grow: 1;
+    font-size: 1.5rem;
+    border: none;
+    padding: 0 20px;
+}
+.container section input::placeholder{
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+.container section input:focus{
+    outline: none;
+}
+.google_tool{
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  
+}
+.container section div.container_items{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+}
+.container section button.adding{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+}
+.container section button.adding_short{
+    margin-top: 5px;
+    padding: 8px 20px;
+    border-radius: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    font-size: 1.3rem;
+}
+.container .footer{
+    width: 100%;
+    height: auto;
+    align-items: flex-end;
+    justify-content: flex-end;
+    display: flex;
+    padding-right: 30px;
+}
+
+
